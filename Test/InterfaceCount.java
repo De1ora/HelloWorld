@@ -7,6 +7,6 @@ public interface InterfaceCount {
     int max = 0;
     String message = "here is the max number. do not go over it.";
 
-    public int countUp2();
+    public int countUp();
 
 }

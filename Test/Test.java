@@ -11,12 +11,12 @@ public class Test {
 
         Player player = new Player();
 
-        player.countUp2();
+        player.countUp();
 
         InterfaceCount ifc;
         ifc = player;
 
-        ifc.countUp2();
+        ifc.countUp();
 
         
 

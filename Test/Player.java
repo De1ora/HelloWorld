@@ -13,7 +13,9 @@ public class Player implements InterfaceCount{
     
 
     @Override
-    public int countUp2() {
+    public int countUp() {
+        value += 2;
+        System.out.println(value);
         return value;
     }
 
