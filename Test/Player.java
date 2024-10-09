@@ -1,4 +1,4 @@
-public class Player {
+public class Player implements InterfaceCount{
 
     String name;
 
@@ -10,7 +10,12 @@ public class Player {
 
     String message = "This is the last message, can not go over 12.";
 
-    Player player = new Player();
+    
+
+    @Override
+    public int countUp2() {
+        return value;
+    }
 
     
     

@@ -1,6 +1,7 @@
 public class Test {
 
     public static void main(String[] args) {
+
         System.out.println("Hello World!");
 
         System.out.println("Hallo Git. ");
@@ -11,5 +12,14 @@ public class Test {
         Player player = new Player();
 
         player.countUp2();
+
+        InterfaceCount ifc;
+        ifc = player;
+
+        ifc.countUp2();
+
+        
+
+        System.out.println(player.countUp2());
     }
 }
