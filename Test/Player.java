@@ -10,11 +10,11 @@ public class Player {
 
     String message = "This is the last message, can not go over 12.";
 
-    public int countUp2(){
-        value +=2;
-        System.out.println("value");
-        return value;
-    }
+    Player player = new Player();
+
+    
+    
+    
 
 
 
